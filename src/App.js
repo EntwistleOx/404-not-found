@@ -1,5 +1,5 @@
 import React from "react";
-import scarecrow from "./img/scarecrow.png";
+import ImageScarecrow from "./img/scarecrow.png";
 import "./App.css";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <React.Fragment>
       <h1 className="title">404 not found</h1>
       <div className="main">
-        <img src={scarecrow} alt="" />
+        <img src={ImageScarecrow} alt="scarecrow" />
         <div className="content">
           <h2>I have bad news for you</h2>
           <p>
