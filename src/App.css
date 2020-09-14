@@ -78,13 +78,17 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  .title {
+    margin-left: 2rem;
+  }
+
   .main {
     flex-direction: row;
     justify-content: space-evenly;
   }
 
   .main img {
-    width: 414px;
+    width: 45%;
     height: auto;
   }
 
@@ -118,11 +122,16 @@ footer {
 
 @media screen and (min-width: 1440px) {
   .title {
+    margin-left: 3rem;
   }
 
   .main {
     justify-content: space-evenly;
     height: 80%;
+  }
+
+  .main img {
+    width: 30%;
   }
 
   .content {
@@ -131,5 +140,32 @@ footer {
 
   .content button {
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title {
+    margin-left: 4rem;
+  }
+
+  .main img {
+    width: 25%;
+  }
+
+  .content h2 {
+    font-size: 64px;
+    margin-bottom: revert;
+  }
+
+  .content p {
+    font-size: 24px;
+  }
+
+  .content button {
+    padding: 24px 43px;
+  }
+
+  footer {
+    font-size: 14px;
   }
 }
